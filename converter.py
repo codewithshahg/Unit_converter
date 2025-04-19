@@ -25,3 +25,4 @@ def temp_converter(value, from_unit, to_unit):
 if st.button("Convert"):
     result = temp_converter(value, from_unit, to_unit)
     st.success(f"{value} {from_unit} is equal to {result:.2f} {to_unit}")
+
